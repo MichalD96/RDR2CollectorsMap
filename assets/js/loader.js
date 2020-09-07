@@ -33,16 +33,16 @@ class Loader {
 }
 
 const urls = [
-    'data/items_value.json',
-    'data/weekly.json',
-    'data/cycles.json',
-    'data/overlays.json',
-    'data/items.json',
-    'data/fasttravels.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/items_value.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/weekly.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/cycles.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/overlays.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/items.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/fasttravels.json',
     'https://pepegapi.jeanropke.net/rdo/nazar',
-    'data/treasures.json',
-    'data/animal_legendary.json',
-    'data/loot.json',
-    'data/filters.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/treasures.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/animal_legendary.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/loot.json',
+    'https://jeanropke.github.io/RDR2CollectorsMap/data/filters.json',
 ];
 Loader.init(urls);
