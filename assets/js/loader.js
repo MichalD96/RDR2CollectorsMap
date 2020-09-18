@@ -44,5 +44,6 @@ const urls = [
     'https://jeanropke.github.io/RDR2CollectorsMap/data/animal_legendary.json',
     'https://jeanropke.github.io/RDR2CollectorsMap/data/loot.json',
     'https://jeanropke.github.io/RDR2CollectorsMap/data/filters.json',
+    'data/plants.json',
 ];
 Loader.init(urls);

@@ -110,6 +110,7 @@ function init() {
   const legendaries = Legendary.init();
   Promise.all([cycles, markers]).then(MapBase.runOncePostLoad);
   Routes.init();
+  PlantsCollection.init();
   Promise.all([itemsCollectionsWeekly, markers, cycles, treasures, legendaries])
     .then(Loader.resolveMapModelLoaded);
 
